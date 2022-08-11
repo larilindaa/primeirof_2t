@@ -1,0 +1,53 @@
+body{
+  background: rgb(221, 54, 81)
+}
+h1 {
+  text-align: center;
+}
+.caixa1 {
+   position: absolute;
+   background: rgb(0, 174, 255);
+   width: 200px;
+   height: 200px;
+   color: #FFFFFF;
+   right: 500px;
+   top: 200px;
+}
+.caixa2 {
+   position: absolute;
+   background: rgb(105, 236, 78);
+   width: 200px;
+   height: 200px;
+   color: #000000;
+   right: 705px;
+   top: 200px;
+}
+
+.menuPrincipal {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background: rgb(195, 101, 238);
+  top: 0;
+  left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+ color: chocolate;
+ background: darkblue;
+}
